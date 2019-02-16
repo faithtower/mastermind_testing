@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Master Mind | Number Counter</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+<body>
+    <header class="bg-primary text-light p-3">
+        <div class="d-flex">
+            <div class="mx-4 text-center mt-3"><img src="./images/abacus__counter.png" width="80px;" class="img-thumbnail" alt=""></div>
+            <div class="mt-3">
+                <h3>Master Mind</h3>
+                <h5>The number counting Game</h5>
+            </div>
+        </div>
+    </header>
+
+    <div class="container d-flex justify-content-around">
+        <!-- <div>Timer: <input type="number" id="time" value="20"></div> -->
+    </div>
+
+    <div class="container my-4"> 
+        <div class="text-center w-100 py-3 btnsSection">
+            <table class="text-center w-100">
+                <tr></tr>
+                    <td><div>
+                            <div></i> <input type="number" id="time" value="20"></div>
+                        </div>
+                    </td>
+                    <td><button class="btn actionBtns" id="start"><i class="fas fa-play text-success"></button></td>
+                    <td><button id="repeat" class="btn actionBtns"></i><i class="fas fa-redo text-primary"></i></button></td>
+                    <td><button id="stop" class="btn actionBtns"><i class="fas fa-stop-circle text-danger"></i></button></td>
+                </tr>
+                <tr>
+                    <td class="labels"><i class="far fa-clock text-warning"></i> Timer</td>
+                    <td class="labels">Start/New</td>
+                    <td class="labels">Play Again</td>
+                    <td class="labels"> Stop</td>
+                </tr>
+            </table>
+
+            <!-- <div><button class="btn px-2" id="start">Start</button></div>
+            <div><button id="repeat" class="btn px-2">Play Again</button></div> -->
+            <!-- <div><button id="shuffle" class="btn px-2">Shuffle</button></div> -->
+            <!-- <div><button id="stop" class="btn px-2">Stop</button></div> -->
+        </div>
+
+        <div id="boxes" class="text-center">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">    
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+            <input type="button" value="" class="box">
+        </div>
+        
+    </div>
+    
+    
+
+    
+    <!-- <script src="./js/sweetalert.min.js"></script> -->
+    <script src="./js/sweetalert2@8.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+    
+</body>
+</html>

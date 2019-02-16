@@ -1,0 +1,42 @@
+
+#time{
+    width: 60px;
+    height: 40px;
+    border: none;
+    font-size: 22px;
+    text-align: center;
+}
+
+.labels{
+    font-size: 10px;
+}
+
+.btnsSection{
+    background: #181834;
+    margin-bottom: 10px;
+    color: #fff;
+    box-shadow: 2px 2px 1px 1px #333;
+}
+.actionBtns{
+    background: #fff;
+}
+#boxes{
+    width: 100%;
+    padding: 20px 0px;
+    background-color: #181834;
+}
+.box{
+    width: 20%;
+    height: 60px;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: all .3s;
+    box-shadow: 2px 2px 1px 1px #333;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.dim{
+    opacity: 0.3;
+}
