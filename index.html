@@ -19,54 +19,76 @@
             </div>
         </div>
     </header>
-    <div class="container my-4"> 
-        <div class="text-center w-100 py-3 btnsSection">
-            <table class="text-center w-100">
-                <tr></tr>
-                    <td><div>
-                            <div></i> <input type="number" id="time" value="20"></div>
-                        </div>
-                    </td>
-                    <td><button class="btn actionBtns" id="start"><i class="fas fa-play text-success"></button></td>
-                    <td><button id="repeat" class="btn actionBtns"></i><i class="fas fa-redo text-primary"></i></button></td>
-                    <td><button id="stop" class="btn actionBtns"><i class="fas fa-stop-circle text-danger"></i></button></td>
-                </tr>
-                <tr>
-                    <td class="labels"><i class="far fa-clock text-warning"></i> Timer</td>
-                    <td class="labels">Start/New</td>
-                    <td class="labels">Play Again</td>
-                    <td class="labels"> Stop</td>
-                </tr>
-            </table>
-        </div>
 
-        <div id="boxes" class="text-center">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">    
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-            <input type="button" value="" class="box">
-        </div>
-        
-    </div>
-    
-    
+    <div class="row m-auto">
+        <div class="col-sm-10 col-md-7 col-lg-6 mx-auto"> <!-- col 1 -->
+            <div class="container my-4"> 
+                <div class="text-center w-100 py-3 btnsSection">
+                    <table class="text-center w-100">
+                        <tr></tr>
+                            <td><div>
+                                    <div></i> <input type="number" id="time" value="20"></div>
+                                </div>
+                            </td>
+                            <td><button class="btn actionBtns" id="start"><i class="fas fa-play text-success"></button></td>
+                            <td><button id="repeat" class="btn actionBtns"></i><i class="fas fa-redo text-primary"></i></button></td>
+                            <td><button id="stop" class="btn actionBtns"><i class="fas fa-stop-circle text-danger"></i></button></td>
+                        </tr>
+                        <tr>
+                            <td class="labels"><i class="far fa-clock text-warning"></i> Timer</td>
+                            <td class="labels">Start/New</td>
+                            <td class="labels">Play Again</td>
+                            <td class="labels"> Stop</td>
+                        </tr>
+                    </table>
+                </div>
 
+                <div id="boxes" class="text-center">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">    
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                    <input type="button" value="" class="box">
+                </div>
+            </div>
+        </div> <!-- End of col 1 -->
+
+        <div class="col-sm-9 col-md-5 col-lg-6 mx-auto mt-2 mt-md-4"> <!--  col 2 -->
+            <div class="instructions">
+                <p class="text-white text-center h3 p-2 rounded htp"> HOW TO PLAY</p>
+                <div class="text-center shadow p-3">
+                    <p>Watch how to play the Game</p>
+                    <img src="./images/MasterMind.gif" width="100%" class="img-thumbnail">
+                    <h4>Numbers are re-shuffled randomly</h4>
+                    <p>Count these numbers as fast as possible from lowest to highest by click/tapping on them
+                    <br>You can change the <span class="text-danger font-weight-bold">TIMING</span> to challenge yourself on how fast you can count these number</p>
+                </div>
+            </div>
+        </div> <!-- End of col 2 -->
+
+    </div><!-- End of row -->
+
+
+    <footer class="mt-5 p-4 text-center text-light">
+        Created with <i class="fas fa-heart text-danger"></i> by Shadrack Ankomahene (ankomaheneshadrack@gmail.com)
+        <p class="text-warning">This Game is Dedicated to my Little Sister | Mary Dede Ankomahene</p>
+        <p>Copyright&copy;2019 | Faithtower Media (faithtowermediateck@gmail.com)</p>
+    </footer>
     
     <!-- <script src="./js/sweetalert.min.js"></script> -->
     <script src="./js/sweetalert2@8.min.js"></script>

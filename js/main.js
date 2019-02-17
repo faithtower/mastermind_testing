@@ -37,6 +37,7 @@ startBtn.onclick = () => {
     enableBoxes();
     shuffle.newShuffle();
     startTiming();
+    changeBgColor();
 }
 
 stopBtn.onclick = () => {
@@ -153,14 +154,20 @@ const shuffle = {
 }
 
 
+//Add background colors to some boxes
+const changeBgColor = () => {
+    const colors = ["#007BFF", "#FF5500", "#0303F6", "#FF036C", "#0A970A"];
+    var pickColor = Math.floor(Math.random()*colors.length);
 
-// const shuffle = () => {
-   
-//     
-//     repeatID = randomNumbersIndex;
+    for (var i in boxes){
+        if (i%2 == 0){
+            box = boxes[i];
+            box.style.backgroundColor = colors[pickColor];
+            box.style.color = "#fff";
+        }
+    }
+}
 
-    
-// }
 
 //========ALERTS====================
 const checkTimeValue = () => {
